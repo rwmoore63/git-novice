@@ -48,7 +48,13 @@ What's worse,
 having them all listed could distract us from changes that actually matter,
 so let's tell Git to ignore them.
 
-We do this by creating a file in the root directory of our project called `.gitignore`:
+
+[comment]:<It might be worth reiterating occasionally the method of demonstrating when to edit text that is explained in /04-changes.md lines 206-208>
+[comment]:<Some students are getting stuck here following the instructions in this module where cat returns nothing because they were never instructed to>
+[comment]:<write anything to .gitignore. A sample is included as an edit here.>
+*/
+
+We do this by creating a file in the root directory of our project called `.gitignore`. Write the outputs from our file to your own .gitignore file
 
 ~~~
 $ nano .gitignore
